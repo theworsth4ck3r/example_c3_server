@@ -1,0 +1,21 @@
+{
+    "name": "example/c2server",
+    "description": "C2 server",
+    "require": {},
+
+    "autoload": {
+    	"psr-4": {
+    		"": "src_23svc62ka8/"
+    	}
+    },
+
+    "autoload-dev": {
+    	"psr-4": {
+    		"Tests\\": "tests/"
+    	}
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9",
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}
