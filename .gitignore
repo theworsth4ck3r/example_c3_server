@@ -5,4 +5,4 @@ vendor
 .installed
 clients.json
 specification.txt
-.composer.lock
+composer.lock
